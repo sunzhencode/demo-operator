@@ -32,12 +32,11 @@ type MyDaemonsetSpec struct {
 	Image string `json:"image,omitempty"`
 }
 
-
 // MyDaemonsetStatus defines the observed state of MyDaemonset
 type MyDaemonsetStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
-	 AvaiableReplicas int `json:"avaiableReplicas,omitempty"`
+	AvaiableReplicas int `json:"avaiableReplicas,omitempty"`
 }
 
 //+kubebuilder:object:root=true
